@@ -6,12 +6,11 @@
 /*   By: leng-chu <leng-chu@student.42kl.edu.m      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/25 21:52:26 by leng-chu          #+#    #+#             */
-/*   Updated: 2021/12/03 12:04:51 by leng-chu         ###   ########.fr       */
+/*   Updated: 2022/09/15 18:43:02 by leng-chu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "get_next_line.h"
-#include <stdio.h>
 #include <fcntl.h>
 
 size_t	ft_strlen_c(const char *s, const char c)

@@ -6,7 +6,7 @@
 /*   By: jacklearn <marvin@42.fr>                   +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/05/10 10:30:43 by jacklearn         #+#    #+#             */
-/*   Updated: 2022/09/13 17:25:33 by leng-chu         ###   ########.fr       */
+/*   Updated: 2022/09/15 18:59:18 by leng-chu         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -66,5 +66,6 @@ void	ft_lstdelone(t_list *lst, void (*del)(void *));
 void	ft_lstclear(t_list **lst, void (*del)(void *));
 void	ft_lstiter(t_list *lst, void (*f)(void *));
 t_list	*ft_lstmap(t_list *lst, void *(*f)(void *), void (*del)(void *));
+void	ft_putchar(char c);
 
 #endif
